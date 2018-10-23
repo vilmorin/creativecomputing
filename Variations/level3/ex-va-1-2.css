@@ -1,0 +1,22 @@
+p {
+	text-align: left;
+	font-size:18px;
+	font-family:"times";
+	text-align: center;
+	line-height:3;
+	}
+
+h1 {
+	font-family:"times";
+	text-align: center;
+	letter-spacing:20px;
+	font-size:50px;
+
+}
+
+h3{
+	font-family:"times";
+	text-align:center;
+	letter-spacing:5px;
+	line-height:2;
+}
