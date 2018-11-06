@@ -6,13 +6,13 @@
         <title>Carl Dair: 7 Principles of Typographic Contrast</title>
         <meta name="description" content="Jonh Berry article on the designer Carl Dair">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="carldair.css">
+        <link rel="stylesheet" href="css/carldair.css">
     </head>
     
     <body><!-- Nesting: elements are contained inside of other elements. When this happens, we indent to make it more readable. -->
         <article>
             <header>
-                <h1>Seven Principles of Typographic Contrast</h1>
+                <h1 id="container">Seven Principles of Typographic Contrast</h1>
 
                 <h2>In a seminal booklet that he both designed and wrote, Carl Dair showed how in typography, as in music, harmony and contrast are the keys to composition.</h2>
                 <!-- Above, you see examples of the first levels of headings. h1 all they way down to h6 describes hierarchy of headings, with h1 being the most important. -->
@@ -21,16 +21,31 @@
             </header>
 
             <section>
-                <p>The late Canadian typographer <a href="https://en.wikipedia.org/wiki/Carl_Dair">Carl Dair</a> <!-- We will review hyperlinks again, but this is an example of an absolute link. The anchor tag, or <a>, is used when you want to create a link. You need the 'href' attribute, and its value will be the desired URL.-->was one of the great typographic designers of the 1950s and 1960s, and he may have been the best of them all at explaining the nature of typography. In coordinated projects that he both wrote and designed, he managed to describe—and show—the ways in which manipulating and using type make typography happen.</p>
+                <p> <span id="dropcap">T</span>he late Canadian typographer <a href="https://en.wikipedia.org/wiki/Carl_Dair">Carl Dair</a> <!-- We will review hyperlinks again, but this is an example of an absolute link. The anchor tag, or <a>, is used when you want to create a link. You need the 'href' attribute, and its value will be the desired URL.-->was one of the great typographic designers of the 1950s and 1960s, and he may have been the best of them all at explaining the nature of typography. In coordinated projects that he both wrote and designed, he managed to describe—and show—the ways in which manipulating and using type make typography happen.</p>
                 <!-- paragraphs, or any long span of text, are identified and marked up using the p tag. This is you go-to element for body text-->
 
 
-                <img src="https://alchetron.com/cdn/carl-dair-699cb676-e2f2-46af-b8b6-ca5ba75976b-resize-750.jpeg" alt="Carl Dair smoking a pipe"/>
+                <img src="https://alchetron.com/cdn/carl-dair-699cb676-e2f2-46af-b8b6-ca5ba75976b-resize-750.jpeg" alt="Carl Dair smoking a pipe" width=350/>
                 <!-- Images are placed in HTML documents using the img tag. It does not have a closing tag. The src attribute is used to point to an image stored on the server or an absolute URL, which is the example above. In order to help visually impaired users who use screenreaders, we always provide alt text, or a brief description of the image using the alt attribute. -->
 
-                <p id="hover">Dair is the very epitome of what I mean when I say “typographer”: someone who designs with type, not just a fancy typesetter, but someone who uses type, in all its variations, as the principle element of design. Since type carries meaning, the practice of typography requires a designer who cares about the words themselves. It requires someone who cares enough, and is skillful enough, to make the type express that meaning, rather than serve as simply eye-catching decoration.</p>
+                <p>Dair is the very epitome of what I mean when I say “typographer”: someone who designs with type, not just a fancy typesetter, but someone who uses type, in all its variations, as the principle element of design. Since type carries meaning, the practice of typography requires a designer who cares about the words themselves. It requires someone who cares enough, and is skillful enough, to make the type express that meaning, rather than serve as simply eye-catching decoration.</p>
 
-                <p id="transition">Carl Dair’s book <a href="http://a.co/d/5Vhphjd"><cite>Design With Type</cite></a>  <!-- the <cite> tag represents a reference to a creative work. A creative work may include a book, a paper, an essay, a poem, a score, a song, a script, a film, a TV show, a game, a sculpture, a painting, a theater production, a play, an opera, a musical, an exhibition, a legal case report, a computer program, a web site, a web page, a blog post or comment, a forum post or comment, a tweet, a written or oral statement, etc-->(originally published in 1952; revised and expanded in 1967) is deservedly still in print, even though the technology that he used and described has long been outdated. The practicalities of setting type in metal are no longer the practicalities we have to deal with; but the visual relationships between letters, which Dair showed and explained so graphically in his book, haven’t changed at all. <cite>Design With Type</cite> is still one of the best handbooks available for learning how to do exactly what the title says: design with type.</p>
+
+
+
+
+            <div id="block">
+
+                    This is a block This is a block This is a block This is a block This is a block This is a block This is a block This is a block This is a block This is a block This is a block This is a block
+
+            </div>
+
+
+
+
+
+
+                <p>Carl Dair’s book <a href="http://a.co/d/5Vhphjd"><cite>Design With Type</cite></a>  <!-- the <cite> tag represents a reference to a creative work. A creative work may include a book, a paper, an essay, a poem, a score, a song, a script, a film, a TV show, a game, a sculpture, a painting, a theater production, a play, an opera, a musical, an exhibition, a legal case report, a computer program, a web site, a web page, a blog post or comment, a forum post or comment, a tweet, a written or oral statement, etc-->(originally published in 1952; revised and expanded in 1967) is deservedly still in print, even though the technology that he used and described has long been outdated. The practicalities of setting type in metal are no longer the practicalities we have to deal with; but the visual relationships between letters, which Dair showed and explained so graphically in his book, haven’t changed at all. <cite>Design With Type</cite> is still one of the best handbooks available for learning how to do exactly what the title says: design with type.</p>
 
                 <a href="http://a.co/d/5Vhphjd"><img src="img/design-with-type.jpg" width="360"></a>
                 <!-- this image source path is an example of a relative path. It doesn't start with http, but rather with a folder name. This is provides directions for the browser to go retrieve the image file from a certain location. The location is relative to this HTML document. You can specify to move forward into more folders using the folder names or ./ and you can specify the location as up or back in the folder structure using ../  -->

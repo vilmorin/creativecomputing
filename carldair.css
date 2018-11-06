@@ -1,5 +1,32 @@
 p {
 	text-align: left;
-	font-size:35px;
+	font-size:15px;
 	font-family:"helvetica";
+}
+
+#hover{
+	color:white;
+	background-color:blue;
+	transition:background-color 0.3s ease-in 0.2s;
+	transition-duration: 800ms;
+ 	transition-timing-function: ease-in-out;
+  	transition-delay: 300ms;
+}
+
+#hover:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+#transition{
+	background-color:white;
+	animation: moveup 3.5s linear 
+  	infinite alternate;
+
+}
+
+
+#transition:hover{
+	transition-duration:5s;
+	background-color:black;
 }
