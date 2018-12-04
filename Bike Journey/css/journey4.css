@@ -1,0 +1,33 @@
+
+body{
+	background-color:lightblue;
+	font-family:"futura";
+	width:auto 1000px auto;
+	color:white;
+	text-align:right;
+
+}
+
+
+#container{
+	width: auto 1000px auto;
+	display:grid;
+	background-color:;
+	grid-template-columns:10% 10% 10% 10% 10% 10% 10% 10% 10% 10% auto;
+	grid-template-rows:100px 100px 100px 100px 100px 100px auto;
+}
+
+
+#image{
+	width: 500px;
+	grid-column-start:4;
+	grid-row-start:1;
+}
+
+
+p{
+	font-size:30pt;
+	grid-row-start:2;
+	grid-column-start:2;
+	width:200px;
+}

@@ -1,0 +1,42 @@
+
+body{
+	background-color:rgb(230, 247, 255);
+	font-family:"futura";
+	text-align:center;
+}
+
+
+#title-container{
+	width: 100%;
+	text-align:center;
+	display:grid;
+	grid-template-columns:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+	grid-template-rows:100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+
+h1{
+	font-size:20pt;
+	width:80%;
+	grid-row-start:1;
+	grid-column-start:4;
+	grid-column-end:9;
+}
+
+h3{
+	font-size:12pt;
+	width:100%;
+	height:35px;
+	grid-row-start:6;
+	grid-column-start:6;
+	grid-column-end:;
+	background-color:white;
+	right:500px;
+}
+
+
+#bikeimage{
+	width:800px;
+	grid-row-start:2;
+	grid-column-start:3;
+	grid-column-end:7;
+}
