@@ -50,8 +50,14 @@ p{
     /* grid-row-end: 6; */
     top: 150px;
     left: 558px;
+<<<<<<< HEAD
     opacity:0;
     background-color:rgb(230, 247, 255);
+=======
+    background-color:none;
+	opacity:0;
+    
+>>>>>>> 31967cab70238f29ae31695b824bdf534c2f4981
 }
 
 
