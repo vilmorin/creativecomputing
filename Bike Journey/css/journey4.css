@@ -44,14 +44,14 @@ p{
 #button2{
 	    width: 40px;
     height: 150px;
-    background-color: red;
+    
     position: relative;
     /* grid-column-start: 3; */
     /* grid-row-start: 7; */
     /* grid-row-end: 6; */
     top: 150px;
     left: 558px;
-    opacity: .1;
+    
 }
 
 
