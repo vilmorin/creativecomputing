@@ -42,9 +42,8 @@ p{
 
 
 #button2{
-	    width: 40px;
+	width: 40px;
     height: 150px;
-    
     position: relative;
     /* grid-column-start: 3; */
     /* grid-row-start: 7; */
