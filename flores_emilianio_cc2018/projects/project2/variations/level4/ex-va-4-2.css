@@ -1,0 +1,35 @@
+
+h1 {
+	font-family:"neue";
+	text-align: center;
+	letter-spacing
+	font-size:100px;
+	font-style:italic;
+	text-transform:uppercase;
+
+
+}
+
+h3{
+	font-family:"neue";
+	text-align:center;
+	letter-spacing
+	line-height:2;
+	font-size:50;
+	text-transform:;
+}
+
+p {
+	font-size:30px;
+	font-family:"times";
+	text-align: center;
+	line-height:2;
+	font-style
+	letter-spacing
+
+	
+	}
+
+body{
+	background-color:rgba(201, 76, 76, 0.3);
+}

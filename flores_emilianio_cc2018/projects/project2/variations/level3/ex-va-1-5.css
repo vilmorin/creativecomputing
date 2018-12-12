@@ -1,0 +1,29 @@
+
+h1 {
+	font-family:"helvetica";
+	text-align: center;
+	letter-spacing
+	font-size:30px;
+	font-style:italic;
+	text-transform:uppercase;
+
+
+}
+
+h3{
+	font-family:"helvetica";
+	text-align:center;
+	letter-spacing
+	line-height:2;
+	font-size:20;
+	text-transform:uppercase;
+}
+
+p {
+	font-size:15px;
+	font-family:"times";
+	text-align: center;
+	line-height:2;
+	font-style:italic;
+	letter-spacing
+	}

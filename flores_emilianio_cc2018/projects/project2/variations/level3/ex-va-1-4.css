@@ -1,0 +1,29 @@
+
+h1 {
+	font-family:"neue";
+	text-align: right;
+	letter-spacing:25px;
+	font-size:70px;
+	font-style:italic;
+	text-transform:uppercase;
+
+
+}
+
+h3{
+	font-family:"neue";
+	text-align:right;
+	letter-spacing:18px;
+	line-height:2;
+	font-size:30;
+	text-transform:uppercase;
+}
+
+p {
+	font-size:25px;
+	font-family:"neue";
+	text-align: right;
+	line-height:2;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	}

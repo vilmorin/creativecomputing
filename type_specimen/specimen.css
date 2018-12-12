@@ -1,0 +1,229 @@
+
+body{
+	text-align:center;
+	display:grid;
+	grid-template-rows: auto;
+	justify-items:center;
+	align-items:center;
+	margin-left:200px;
+	margin-right:200px;
+	font-family:"baskerville";
+	background-color:rgb(254, 234, 215);
+	vmin:800px;
+}
+
+
+
+.container2{
+	background-color:rgb(242, 253, 254);
+	width:820px;
+	height:300px; 
+	grid-template-columns: 133.3px 133.3px 133.3px 133.3px 133.3px 133.3px;
+	grid-template-rows:50px 50px 50px 50px 50px 50px;
+	grid-row-gap:1px;
+	grid-column-gap:1px;
+	display:grid;
+	padding:20px;
+}
+
+.oval{
+	width:450px;
+	height:350px;
+	background-color:orange;
+	border-radius:50%;
+	grid-column-start:2;
+	grid-row-start:1;
+	z-index:1;
+	transform:rotate(20deg)
+	transition: all .2s ease-in-out;
+.oval:hover{transform:scale(1.1);}
+
+
+
+
+
+
+
+}
+
+.letter{
+	font-size:270pt;
+	grid-column-start:3;
+	grid-row-start:1;
+	z-index:2;
+}
+
+#line{
+	width:780px;
+	height:6px;
+	background-color:black;
+	grid-row-start:3;
+	}
+
+
+#numbers{
+	font-size:50pt;
+}
+
+
+
+h1{
+	font-size:100pt;
+	font-family:"baskerville";
+	font-style:;
+}
+
+
+p{
+	font-family:"baskerville";
+	font-style:normal;
+}
+
+
+.container{
+	background:rgb(242, 253, 254);
+	width:820px;
+	padding:20px;
+	grid-template-rows:100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+
+}
+
+
+	#statement{
+	font-size:18pt;
+	}
+
+	#one{
+	font-size:30pt;
+	}
+
+	#two{
+	font-size:27pt;
+	}
+
+	#three{
+	font-size:24pt;
+	}
+
+	#four{
+	font-size:21pt;
+	}
+
+	#five{
+	font-size:18pt;
+	}
+
+	#six{
+	font-size:15pt;
+	}
+
+	#seven{
+	font-size:12pt;
+	}
+
+	#eight{
+	font-size:9pt;
+	}
+
+
+	#nine{
+	font-size:6pt;
+	}
+
+	#ten{
+	font-size:4pt;
+	}
+
+
+
+			#alphabet{
+			font-size:60pt;
+			}
+
+
+
+
+
+	#panagram1{
+		font-size:24pt;
+		font-style:normal;
+	}
+
+
+	#panagram2{
+		font-size:24pt;
+		font-style:normal;
+	}
+
+	#panagram3{
+		font-size:24pt;
+		font-style:oblique;
+	}
+
+	#panagram4{
+		font-size:24pt;
+		font-style:black;
+	}
+
+	#panagram5{
+		font-size:24pt;
+		font-style:normal;
+	}
+
+	#panagram6{
+		font-size:24pt;
+		font-style:normal;
+	}
+
+	#panagram7{
+		font-size:24pt;
+		font-style:normal;
+	}
+
+	#panagram8{
+		font-size:24pt;
+		font-style:normal;
+	}
+
+
+
+
+
+			.container3{
+				width:820px;
+				background-color:white;
+				padding:20px;
+				color:rgb(242, 253, 254);
+				background-color:black;
+
+			}
+
+
+	#firstparagraph{
+		font-size:60px;
+		line-height:84px;
+
+	}
+
+	#secondparagraph{
+		font-size:34pt;
+		line-height:44px;
+	}
+
+	#thirdparagraph{
+		font-size:18px;
+		line-height:22px;
+		width:800px;
+		padding:20px;
+	}
+
+	.texttitle{
+		font-size:30pt;
+		text-align:center;
+	}
+
+
+
+
+
+

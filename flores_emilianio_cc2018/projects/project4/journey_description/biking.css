@@ -1,0 +1,13 @@
+body{
+	font-size:14pt;
+	text-align:center;
+	font-family:"times new roman";
+	
+}
+
+#container{
+	width:550px;
+	background-color:lightblue;
+	padding:5px;
+
+}
